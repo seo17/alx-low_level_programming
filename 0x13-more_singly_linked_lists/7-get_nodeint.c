@@ -8,14 +8,14 @@
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
-	int node_counter;
+	unsigned int node_counter;
 
 	for (node_counter = 0; node_counter < index; node_counter++)
 	{
 		if (head == NULL)
 			return (NULL);
 
-		head = (*hea)->next;
+		head = (*head)->next;
 	}
 
 	return (head);
